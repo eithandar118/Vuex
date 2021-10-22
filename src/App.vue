@@ -1,15 +1,15 @@
 <template>
-  <div id="app">
-    <Todos/>
-  </div>
+<Layout />
 </template>
 
 <script>
-import Todos from './components/Todos.vue'
+import Layout from './components/Layout';
+
 export default {
-  name: "App",
-  components: { Todos },
+    name: 'App',
+
+    components: {
+        Layout,
+    },
 };
 </script>
-
-<style></style>
