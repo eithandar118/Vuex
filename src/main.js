@@ -4,7 +4,6 @@ import store from './store'
 import router from "./router";
 import axios from "axios";
 // import moment from "moment";
-import vuetify from "./plugins/vuetify";
 
 //BootstrapVue setup
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
@@ -21,7 +20,6 @@ Vue.prototype.$store = store;
 new Vue({
     router,
     store,
-    vuetify,
     render: (h) => h(App),
     /**
      * This is to set token to any request to server side.
